@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .block {
+            padding: 20px;
+            background-color: #f3f3f3;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            text-decoration: none; /* Remover sublinhado dos links */
+            color: #333; /* Definir a cor do texto dos links */
+        }
+        .block:hover {
+            transform: scale(1.05);
+        }
+        h2 {
+            color: #333;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        .block h3 {
+            margin-top: 0;
+            color: #666;
+            font-size: 1rem;
+        }
+        .profile-pic {
+            max-width: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .profile-name {
+            font-size: 1.5rem;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/profilepic.jpg" alt="Foto de Perfil" class="profile-pic">
+        <h1 class="profile-name">Giovanni Camargo Gardenal Morandi</h1>
+    </header>
+    <div class="container">
+        <a href="cursos.html" class="block">
+            <h2>Cursos</h2>
+            <h3>Veja os cursos que fiz.</h3>
+        </a>
+
+        <a href="projetos.html" class="block">
+            <h2>Projetos</h2>
+            <h3>Conheça meus projetos realizados.</h3>
+        </a>
+
+        <a href="infos.html" class="block">
+            <h2>Informações Básicas</h2>
+            <h3>Confira minhas informações pessoais.</h3>
+        </a>
+
+        <a href="experiencias.html" class="block">
+            <h2>Experiências</h2>
+            <h3>Veja minhas experiências profissionais.</h3>
+        </a>
+
+        <a href="saude.html" class="block">
+            <h2>Saúde</h2>
+            <h3>Informações sobre minha saúde.</h3>
+        </a>
+
+        <a href="contatos.html" class="block">
+            <h2>Contatos e Redes Sociais</h2>
+            <h3>Entre em contato e me siga nas redes sociais.</h3>
+        </a>
+    </div>
+</body>
+</html>
